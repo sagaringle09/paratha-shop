@@ -1,0 +1,108 @@
+{
+  "ParathaList": [
+    {
+      "label": "Plain paratha + Yogurt",
+      "value": 40,
+      "img": "paratha4.jpg"
+    },
+    {
+      "label": "Aalo Paratha",
+      "value": 50,
+      "img": "paratha2.jpg"
+    },
+    {
+      "label": "Veg Paratha",
+      "value": 50,
+      "img": "paratha3.jpg"
+    },
+    {
+      "label": "Double Cheese Paratha",
+      "value": 70,
+      "img": "paratha5.jpg"
+    },
+    {
+      "label": "Corn Cheese Paratha",
+      "value": 80,
+      "img": "paratha1.jpg"
+    }
+  ],
+  "AddOns": {
+    "Extra Sauce": 5,
+    "Yogurt": 15,
+    "Cheese": 20,
+    "Corn": 10,
+    "Cabbage": 15,
+    "Fenugreek": 10
+  },
+  "ParathasAddOns": {
+    "Plain paratha + Yogurt": [
+      "Extra Sauce"
+    ],
+    "Aalo Paratha": [
+      "Extra Sauce",
+      "Yogurt",
+      "Cheese"
+    ],
+    "Veg Paratha": [
+      "Corn",
+      "Cabbage",
+      "Fenugreek",
+      "Cheese"
+    ],
+    "Double Cheese Paratha": [
+      "Extra Sauce",
+      "Yogurt",
+      "Corn"
+    ],
+    "Corn Cheese Paratha": [
+      "Extra Sauce",
+      "Yogurt",
+      "Cheese"
+    ]
+  },
+  "DeliveryChargesList": [
+    {
+      "label": "Upto 5 km",
+      "value": 0
+    },
+    {
+      "label": "5-8 km",
+      "value": 15
+    },
+    {
+      "label": "9-15 km",
+      "value": 25
+    },
+    {
+      "label": "Above 15 km",
+      "value": 40
+    }
+  ],
+  "Order": {
+    "items": [
+      {
+        "priceParatha": 50,
+        "top": [
+          "Extra Sauce",
+          "Yogurt",
+          "Cheese"
+        ],
+        "id": "Aalo Paratha",
+        "price": 50,
+        "count": 1
+      },
+      {
+        "priceParatha": 50,
+        "top": [
+          "Cabbage",
+          "Fenugreek"
+        ],
+        "id": "Veg Paratha",
+        "price": 50,
+        "count": 1
+      }
+    ],
+    "itemCount": 2,
+    "deliveryCharge": 0
+  }
+}
